@@ -1,0 +1,111 @@
+body {
+    font-family: Helvetica;
+    background-color: #bcdfff;
+}
+
+.logo{
+    
+    padding: 1px 9px;
+    background-color: #5db3ff;
+}
+
+.topico1 img{
+    width: 70%;
+    
+}
+.topico1 .objt1{
+    padding-right: 10%;
+}
+.topico1 .objt2{
+    padding-left: 15%;
+}
+
+
+.topico1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 150%;
+    padding: 10% ;
+    background-color: #5db3ff;
+    
+    
+}
+.topico2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 150%;
+    padding: 10% 20% ;
+    padding-bottom: 50px;
+
+}
+.topico2 .objt1{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.topico2 .objt2{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.topico2 .objt3{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.quadro{
+    background-color: #8fa1ff;
+    padding: 10%;
+    border-radius: 10px;
+}
+.quadro2{
+    background-color: #8fa1ff;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+.topico3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8fa1ff;
+    border-radius: 60px;
+    padding: 10% 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color: #fefeff;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5db3ff;
+    padding: 10%;
+}
+.suporte{
+    padding-right: 30%;
+    border-right-style: solid;
+   
+    
+}
+
+.rodape2{
+    margin-top: solid;
+    padding: 3%;
+    background-color: #5db3ff;
+    font-size: 15px;
+}
+
+.suporte{
+    display: flex;
+    flex-direction: column;
+}
+.suporte a{
+    padding-top: 10%;
+}

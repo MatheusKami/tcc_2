@@ -1,0 +1,21 @@
+.b_botao{
+    text-decoration: none;
+    background-color: #bcdfff;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+}
+.b_botao:hover {
+    background-color: #8fa1ff;
+    
+} 
+
+.degrade_down{
+    padding: 15%;
+    background-image: linear-gradient(#5db3ff, #bcdfff) ;
+}
+
+.degrade_up{
+    padding: 15%;
+    background-image: linear-gradient(0deg ,#5db3ff, #bcdfff) ;
+}
